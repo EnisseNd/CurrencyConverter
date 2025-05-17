@@ -7,3 +7,7 @@ from_currency = str(
 # currency user is converting to, upper() accepts only uppercase inputs
 to_currency = str(
     input("Enter in the currency you'd like to convert to: ")).upper()
+
+amount = float(
+    input("Enter in your monetary amount: ") )
+
