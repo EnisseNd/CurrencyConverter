@@ -13,7 +13,7 @@ amount = float(
  
 #fetches api, is successful when status is 200
 response = requests.get(
-    f"https://v6.exchangerate-api.com/v6/9ddf48650227d232cc03556a/pair/{from_currency}/{to_currency}/{amount}")
+    f"https://v6.exchangerate-api.com/v6/9ddf48650227d232cc03556a/pair/{from_currency}/{to_currency}")
 
 #extract conversion rate from api response
 conversion_rate = response.json()['conversion_rate']
